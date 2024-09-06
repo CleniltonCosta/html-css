@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+           display: block;
+           margin: auto; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Imagens Flexiveis</h1>
+    <p>Esta vendo a imagens abaixo. experimente ampliar ou diminuir a tela</p>
+    <picture>
+        <source media="(max-width: 900px )" srcset="img/paisagem-p.png">
+        <source media="(min-width: 1300px)" srcset="img/paisagem-g.png">
+        <img src="img/paisagem-m.png" alt="">
+    </picture>
+</body>
+</html>
